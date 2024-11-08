@@ -1,0 +1,28 @@
+name: leanix
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - "assets/images/art workshop.jpg"  # The asset path is now enclosed in quotes
+    - "assets/images/dancer.jpg"
+    - "assets/images/comedy.jpg"
+    - "assets/images/profile.jpg"
+    - "assets/images/custom_profile.jpg"
+    - 'assets/images/study.jpg'
